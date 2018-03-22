@@ -1,7 +1,14 @@
 @extends('layouts.base')
 @section('title','最新消息')
 @section('nav')
-@section('news_breadcrumb')
+
+@section('breadcrumb')
+<ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">首頁</a></li>
+    <li class="breadcrumb-item active" aria-current="page">最新消息</li>
+</ol>
+@endsection
+
 @section('content')
     <div class="list-group">
         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">

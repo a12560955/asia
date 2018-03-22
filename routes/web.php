@@ -28,3 +28,7 @@ Route::get('/base', function () {
 Route::get('/news', function () {
     return view('news');
 });
+
+Route::get('/news_page',function(){
+    return view('news_page');
+});

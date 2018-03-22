@@ -73,14 +73,10 @@
         </div>
         @show
         
-        @section('news_breadcrumb')
-            <nav aria-label="breadcrumb" class="container">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">首頁</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">最新消息</li>
-                </ol>
-            </nav>
-        @show
+        <nav aria-label="breadcrumb" class="container">
+            @yield('breadcrumb')
+        </nav>
+
 
         <div class="container">
             @yield('content')
