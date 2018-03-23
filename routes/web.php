@@ -36,3 +36,6 @@ Route::get('/news_page',function(){
 Route::get('/raise',function(){
     return view('raise_list');
 });
+Route::get('/raise_c',function(){
+    return view('raise_content');
+});
