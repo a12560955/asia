@@ -32,3 +32,7 @@ Route::get('/news', function () {
 Route::get('/news_page',function(){
     return view('news_page');
 });
+
+Route::get('/raise',function(){
+    return view('raise_list');
+});
