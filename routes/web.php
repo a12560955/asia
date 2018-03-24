@@ -39,3 +39,7 @@ Route::get('/raise',function(){
 Route::get('/raise_c',function(){
     return view('raise_content');
 });
+
+Route::get('/raise_d',function(){
+    return view('raise_donate');
+});
