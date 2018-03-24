@@ -47,3 +47,8 @@ Route::get('/3_4_3',function(){
 Route::get('/3_4_4',function(){
     return view('raise_donate_c');
 });
+
+
+Route::get('/3_4_5',function(){
+    return view('3_4_5');
+});
