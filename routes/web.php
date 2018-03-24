@@ -25,21 +25,25 @@ Route::get('/base', function () {
 });
 
 
-Route::get('/news', function () {
+Route::get('/3_3_1', function () {
     return view('news');
 });
 
-Route::get('/news_page',function(){
+Route::get('/3_3_2',function(){
     return view('news_page');
 });
 
-Route::get('/raise',function(){
+Route::get('/3_4_1',function(){
     return view('raise_list');
 });
-Route::get('/raise_c',function(){
+Route::get('/3_4_2',function(){
     return view('raise_content');
 });
 
-Route::get('/raise_d',function(){
+Route::get('/3_4_3',function(){
     return view('raise_donate');
+});
+
+Route::get('/3_4_4',function(){
+    return view('raise_donate_c');
 });
