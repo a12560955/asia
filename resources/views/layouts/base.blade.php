@@ -52,13 +52,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img class="d-block w-100" src="http://img06.tooopen.com/images/20170123/tooopen_sy_197476923676.jpg" alt="First slide">
+                    <img class="w-100" src="http://img06.tooopen.com/images/20170123/tooopen_sy_197476923676.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                    <img class="d-block w-100" src="http://petonea.com/file//n251/t.jpg" alt="Second slide">
+                    <img class="w-100" src="http://petonea.com/file//n251/t.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                    <img class="d-block w-100" src="https://i.ytimg.com/vi/bLltMkKxmYA/maxresdefault.jpg" alt="Third slide">
+                    <img class="w-100" src="https://i.ytimg.com/vi/bLltMkKxmYA/maxresdefault.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
