@@ -17,7 +17,7 @@
     <body class="bg-light">
         @section('nav')
         <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-            <img src="http://5b0988e595225.cdn.sohucs.com/images/20170919/397817fa369d4d9e8be5507aed9ccb05.jpeg" height="50" width="100" class="d-inline-block align-top" alt="BV">
+            <img src="./images/asia_logo_s.jpg" height="50" width="50" class="d-inline-block align-top" alt="BV">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
