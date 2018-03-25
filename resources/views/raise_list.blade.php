@@ -13,11 +13,11 @@
     <div class="p-1">
         <br><br>
         <nav class="nav flex-column">
-            <a class="btn btn-danger" href="#" role="button">募資專案</a>
+            <a class="btn btn-danger" style="line-height:50px;" href="#" role="button">募資專案</a>
             <br>
-            <a class="btn btn-info" href="#" role="button">募資個案</a>
+            <a class="btn btn-info" style="line-height:50px;" href="#" role="button">募資個案</a>
             <br>
-            <a class="btn btn-info text-center" href="#" role="button">募資成功<br>案件</a>
+            <a class="btn btn-info text-center" style="line-height:28px;" href="#" role="button">募資成功<br>案件</a>
         </nav>
     </div>
     <div class="p-1">

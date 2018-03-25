@@ -55,3 +55,7 @@ Route::get('/3_4_5',function(){
 Route::get('/3_4_6',function(){
     return view('3_4_6');
 });
+
+Route::get('/3_5_1',function(){
+    return view('3_5_1');
+});
