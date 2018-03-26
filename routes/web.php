@@ -67,3 +67,23 @@ Route::get('/3_5_2',function(){
 Route::get('/3_5_3',function(){
     return view('3_5_3');
 });
+
+Route::get('/3_5_4',function(){
+    return view('3_5_4');
+});
+
+Route::get('/3_5_5',function(){
+    return view('3_5_5');
+});
+
+Route::get('/3_5_6',function(){
+    return view('3_5_6');
+});
+
+Route::get('/3_6_1',function(){
+    return view('3_6_1');
+});
+
+Route::get('/3_6_2',function(){
+    return view('3_6_2');
+});

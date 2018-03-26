@@ -5,19 +5,18 @@
 <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="#">首頁</a></li>
     <li class="breadcrumb-item active"><a href="#">募資計畫</a></li>
-    <li class="breadcrumb-item active"><a href="#">募資專案</a></li>
-    <li class="breadcrumb-item active"><a href="#">(專案名稱)</a></li>
-    <li class="breadcrumb-item active" aria-current="page">捐款</li>
+    <li class="breadcrumb-item active"><a href="#">募資個案</a></li>
+    <li class="breadcrumb-item active" aria-current="page">捐款專頁</li>
 </ol>
 @endsection
 @section('content')
-<div class="d-flex flex-row container w-100">
+<div class="d-flex flex-row">
     <div class="p-1">
         <br><br>
         <nav class="nav flex-column">
-            <a class="btn btn-danger" style="line-height:50px;" href="#" role="button">募資專案</a>
+            <a class="btn btn-info"  style="line-height:50px;" href="#" role="button">募資專案</a>
             <br>
-            <a class="btn btn-info" style="line-height:50px;" href="#" role="button">募資個案</a>
+            <a class="btn btn-danger" style="line-height:50px;" href="#" role="button">募資個案</a>
             <br>
             <a class="btn btn-info text-center" style="line-height:28px;" href="#" role="button">募資成功<br>案件</a>
         </nav>
@@ -27,7 +26,7 @@
             <div class="p-1 w-75">
                 <div class="card carousel-inner d-flex flex-column">
                     <div class="p-2 justify-content-center">
-                        <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
+                        <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg"alt="專案圖片">
                     </div>
                     <div class="p-2 text-center">
                         <h2>捐款專頁</h2>
