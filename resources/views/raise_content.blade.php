@@ -23,10 +23,10 @@
     </div>
     <div class="p-1">
         <div class="d-flex flex-row">
-            <div class="p-1">
+            <div class="p-1 w-75">
                 <div class="card carousel-inner d-flex flex-column">
                     <div class="p-2 justify-content-center">
-                        <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" style="width:50rem;" alt="專案圖片">
+                        <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
                     </div>
                     <div class="p-2 text-center">
                         <h2>專案標題</h2>
@@ -37,20 +37,20 @@
                         <p>使用條例</p>
                     </div>
                     <div class="p-2 justify-content-center">    
-                        <img class="card-img-top" src="https://pic.pimg.tw/belleaya/1456691753-3592257110.jpg?v=1456691775" style="width:50rem;" alt="財務報表">
+                        <img class="card-img-top" src="https://pic.pimg.tw/belleaya/1456691753-3592257110.jpg?v=1456691775" alt="財務報表">
                     </div>
                     <div class="d-flex flex-row text-center justify-content-center">
-                        <div class="p-2">
-                            <div class="card">
-                                <div class="card-body" style="width: 10rem;">
+                        <div class="p-2 ml-5">
+                            <div class="card"  style="width:11em;" >
+                                <div class="card-body">
                                     <h5 class="card-title">目前募集金額</h5>
                                     <br>
                                     <h6 class="card-subtitle mb-2">$5000元</h6>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2">
-                            <div class="card" style="width: 10rem;">
+                        <div class="p-2 mx-3">
+                            <div class="card" style="width:11rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">捐款人數</h5>
                                     <br>
@@ -58,12 +58,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2">
-                            <div class="card" style="width: 10rem;">
+                        <div class="p-2 mr-5" style="width:11rem;">
+                            <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">受贈人數</h5>
                                     <br>
-                                    <h6 class="card-subtitle mb-2 ">5人</h6>
+                                    <h6 class="card-subtitle mb-2">5人</h6>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                         <h5>受贈患者</h5>
                         <div class="d-flex flex-row justify-content-center">
                             <div class="p-2">
-                                <div class="card" style="width:10rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
                                     <div class="card-body">
                                         <h6>鸚鵡兄弟</h6>
@@ -80,7 +80,7 @@
                                 </div>
                             </div>
                             <div class="p-2">
-                                <div class="card" style="width:10rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
                                     <div class="card-body">
                                         <h6>鸚鵡兄弟</h6>
@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                             <div class="p-2">
-                                <div class="card" style="width:10rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
                                     <div class="card-body">
                                         <h6>鸚鵡兄弟</h6>
@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                             <div class="p-2">
-                                <div class="card" style="width:10rem;">
+                                <div class="card">
                                     <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
                                     <div class="card-body">
                                         <h6>鸚鵡兄弟</h6>
@@ -107,14 +107,14 @@
                     </div>
                 </div>
             </div>
-            <div class="p-1 text-center justify-content-end">
+            <div class="p-1 text-center justify-content-end w-25">
                 <h4 class="text-center">進行中</h4>
                 <button type="button" class="btn btn-outline-info btn-lg btn-block">我要捐款</button>
                 <button type="button" class="btn btn-outline-info btn-lg btn-block">追蹤案件</button>
                 <button type="button" class="btn btn-outline-info btn-lg btn-block">留言板</button>
                 <div class="flex-col text-center justify-content-center">
                     <div class="p-1">
-                        <div class="card" style="width:10rem;">
+                        <div class="card">
                             <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
                             <div class="card-body">
                                 <h6>捐款500元以上</h6>
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                     <div class="p-1">
-                        <div class="card" style="width:10rem;">
+                        <div class="card">
                             <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
                             <div class="card-body">
                                 <h6>捐款2000元以上</h6>
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                     <div class="p-1">
-                        <div class="card" style="width:10rem;">
+                        <div class="card">
                             <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
                             <div class="card-body">
                                 <h6>捐款5000元以上</h6>

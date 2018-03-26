@@ -63,3 +63,7 @@ Route::get('/3_5_1',function(){
 Route::get('/3_5_2',function(){
     return view('3_5_2');
 });
+
+Route::get('/3_5_3',function(){
+    return view('3_5_3');
+});
