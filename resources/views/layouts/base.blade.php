@@ -52,13 +52,15 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img class="w-100" src="http://img06.tooopen.com/images/20170123/tooopen_sy_197476923676.jpg" alt="First slide">
+                        {{--  圖片大小為1080*720 但圖片會依 開啟網頁使用者之螢幕大小而有改變 詳細請見1080.jpg  --}}
+                        {{--  圖片只會顯示到深黃色那部分 但大小依然需要1080*720  --}}
+                    <img class="w-100" src="./images/1080.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                    <img class="w-100" src="http://petonea.com/file//n251/t.jpg" alt="Second slide">
+                    <img class="w-100" src="./images/2.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                    <img class="w-100" src="https://i.ytimg.com/vi/bLltMkKxmYA/maxresdefault.jpg" alt="Third slide">
+                    <img class="w-100" src="./images/3.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
