@@ -87,3 +87,7 @@ Route::get('/3_6_1',function(){
 Route::get('/3_6_2',function(){
     return view('3_6_2');
 });
+
+Route::get('/3_7_1',function(){
+    return view('3_7_1');
+});

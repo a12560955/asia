@@ -34,7 +34,7 @@
                         <div class="card-group">
                             <div class="card mx-3">
                                 <div class="card-body">
-                                <h5 class="card-title">病患故事</h5>
+                                    <h5 class="card-title">病患故事</h5>
                                 </div>
                             </div>
                             <div class="card mx-3">
@@ -85,7 +85,7 @@
                     <h5>目標$10,000</h5>
                 </div>
                 <hr>
-                <button type="button" class="btn btn-outline-info btn-lg btn-block" disabled>已結束</button>
+                <button type="button" class="btn btn-outline-info btn-lg btn-block" disabledㄕ>已結束</button>
                 <button type="button" class="btn btn-outline-info btn-lg btn-block">追蹤案件</button>
                 <button type="button" class="btn btn-outline-info btn-lg btn-block">留言板</button>
                 <div class="flex-col text-center justify-content-center">
