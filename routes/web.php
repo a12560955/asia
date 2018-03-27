@@ -91,3 +91,11 @@ Route::get('/3_6_2',function(){
 Route::get('/3_7_1',function(){
     return view('3_7_1');
 });
+
+Route::get('/3_8_1',function(){
+    return view('3_8_1');
+});
+
+Route::get('/3_8_3',function(){
+    return view('3_8_3');
+});
