@@ -13,7 +13,14 @@
             height: 250px;
         }
     </style>
-
+    <script>
+        $custom-file-text: (
+            en: "Browse",
+            es: "Elegir",
+            zh: "預覽",
+            zh-tw: "預覽"
+        );
+    </script>
     <body class="bg-light">
         @section('nav')
             <nav class="navbar navbar-expand-lg navbar-light bg-secondary">

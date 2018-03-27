@@ -96,6 +96,10 @@ Route::get('/3_8_1',function(){
     return view('3_8_1');
 });
 
+Route::get('/3_8_2',function(){
+    return view('3_8_2');
+});
+
 Route::get('/3_8_3',function(){
     return view('3_8_3');
 });
