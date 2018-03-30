@@ -103,3 +103,11 @@ Route::get('/3_8_2',function(){
 Route::get('/3_8_3',function(){
     return view('3_8_3');
 });
+
+Route::get('/3_9_1',function(){
+    return view('3_9_1');
+});
+
+Route::get('/3_9_2',function(){
+    return view('3_9_2');
+});

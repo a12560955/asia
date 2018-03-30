@@ -1,13 +1,5 @@
-@extends('layouts.base')
+@extends('layouts.user')
 @section('title','(內文標題)')
-@section('nav')
-@section('breadcrumb')
-<ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="#">首頁</a></li>
-    <li class="breadcrumb-item"><a href="#">會員專區</a></li>
-    <li class="breadcrumb-item" aria-current="page">一般會員</li>
-</ol>
-@endsection
 @section('content')
 <div class="d-flex flex-row">
     <div class="p-1">
@@ -45,6 +37,9 @@
                             </div>
                             <div class="col- ml-5">
                                 <input type="text" class="form-control">
+                                <small class="form-text text-muted">
+                                    必要輸入
+                                </small>
                             </div>
                         </div>
                         <br>
@@ -54,33 +49,105 @@
                             </div>
                             <div class="col- ml-5">
                                 <input type="text" class="form-control">
+                                <small class="form-text text-muted">
+                                    選填
+                                </small>
                             </div>
                         </div>  
-                        <br>                  
+                        <br>
+                        <div class="row w-50">
+                            <div class="col-">
+                                <label>登入帳號：</label>
+                            </div>
+                            <div class="col- ml-3">
+                                <input type="text" class="form-control">
+                                <small class="form-text text-muted">
+                                    必要輸入
+                                </small>
+                            </div>
+                        </div>  
+                        <br>  
+                        <div class="row w-50">
+                            <div class="col-">
+                                <label>密碼：</label>
+                            </div>
+                            <div class="col- ml-5">
+                                <input type="password" class="form-control">
+                                <small class="form-text text-muted">
+                                    必要輸入
+                                </small>
+                            </div>
+                        </div>  
+                        <br>
+                        <div class="row w-50">
+                            <div class="col- mr-2">
+                                <label>再次輸入<br>密碼：</label>
+                            </div>
+                            <div class="col- ml-4">
+                                <input type="password" class="form-control">
+                                <small class="form-text text-muted">
+                                    必要輸入
+                                </small>
+                            </div>
+                        </div>  
+                        <br>      
+                        <div class="row w-50">
+                            <div class="col-">
+                                <label>所得：</label>
+                            </div>
+                            <div class="col- ml-5">
+                                <input type="text" class="form-control">
+                                <small class="form-text text-muted">
+                                    選填
+                                </small>
+                            </div>
+                        </div>  
+                        <br>                 
+                        <div class="row w-50">
+                            <div class="col-">
+                                <label>生日：</label>
+                            </div>
+                            <div class="col- ml-5" >
+                                <div class="form-inline">
+                                    <input type="text" style="width:5rem;" class="form-control">年<input type="text" style="width:5rem;" class="form-control">月<input type="text" style="width:5rem;" class="form-control">日
+                                </div>
+                                <small class="form-text text-muted">
+                                    必要輸入
+                                </small>
+                            </div>
+                            
+                        </div> 
+                        <br>
                         <div class="row w-50">
                             <div class="col-">
                                 <label>性別：</label>
                             </div>
                             <div class="col- ml-5">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                    <label class="form-check-label" for="inlineCheckbox1">男</label>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">男</label>
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                    <label class="form-check-label" for="inlineCheckbox1">女</label>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline2">女</label>
                                 </div>
+                                <small class="form-text text-muted">
+                                    必要輸入
+                                </small>
                             </div>
                         </div>  
-                        <br>                      
+                        <br>      
                         <div class="row w-50">
                             <div class="col-">
-                                <label>生日：</label>
+                                <label>聯絡信箱：</label>
                             </div>
-                            <div class="col- ml-5 form-inline" >
-                                <input type="text" style="width:5rem;" class="form-control">年<input type="text" style="width:5rem;" class="form-control">月<input type="text" style="width:5rem;" class="form-control">日
+                            <div class="col- ml-3">
+                                <input type="text" class="form-control">
+                                <small class="form-text text-muted">
+                                    必要輸入
+                                </small>
                             </div>
-                        </div> 
+                        </div>  
                         <br>
                         <div class="row w-50">
                             <div class="col-">
@@ -95,46 +162,13 @@
                                     <option selected>請選擇鄉鎮市區</option>
                                     <option value="1">One</option>
                                 </select> 
-                                <input class="form-control" type="text" placeholder="請輸入街道">                
+                                <input class="form-control" type="text" placeholder="請輸入街道">
+                                <small class="form-text text-muted">
+                                    必要輸入
+                                </small>            
                             </div>
                         </div>
                         <br>
-                        <div class="row w-50">
-                            <div class="col-">
-                                <label>郵遞區號：</label>
-                            </div>
-                            <div class="col- ml-3">
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                        <br>  
-                        <div class="row w-50">
-                            <div class="col-">
-                                <label>聯絡信箱：</label>
-                            </div>
-                            <div class="col- ml-3">
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>  
-                        <br>
-                        <div class="row w-50">
-                            <div class="col-">
-                                <label>職業：</label>
-                            </div>
-                            <div class="col- ml-5">
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row w-50">
-                            <div class="col-">
-                                <label>所得：</label>
-                            </div>
-                            <div class="col- ml-5">
-                                <input type="text" class="form-control">
-                            </div>
-                        </div>  
-                        <br> 
                         <div class="row w-50">
                             <div class="col-">
                                 <label>連絡電話：</label>
@@ -146,14 +180,36 @@
                         <br>
                         <div class="row w-50">
                             <div class="col-">
-                                <label>自我介紹：</label>
+                                <label>職業：</label>
                             </div>
-                            <div class="col- ml-3 w-100">
-                                <textarea class="form-control text-left" style="resize: none;" id="exampleFormControlTextarea1" rows="3">輸入你想要寫的內容...</textarea>
+                            <div class="col- ml-5">
+                                <select class="custom-select">
+                                    <option selected>選擇你的職業</option>
+                                    <option value="1">學生</option>
+                                    <option value="2">上班族</option>
+                                    <option value="3">軍公教</option>
+                                </select>
+                                <small class="form-text text-muted">
+                                    必要輸入
+                                </small>   
                             </div>
                         </div>
                         <br>
-                        <button type="submit" class="btn btn-primary my-1">儲存</button>
+                        <div class="row w-50">
+                            <div class="col- mr-2">
+                                <label>使用條款</label>
+                            </div>
+                            <div class="col- ml-4">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">同意XX募資平台<a href="#"><u>服務條款</u></a></label>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <button type="submit" class="btn btn-primary my-1 mx-5">註冊</button>
+                        <button type="submit" class="btn btn-primary my-1 ml-5">取消</button>
                     </div>
                     
                 </form>
@@ -164,4 +220,3 @@
     </div>
 </div>
 @endsection
-@section('bottom')
