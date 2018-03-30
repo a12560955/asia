@@ -111,3 +111,15 @@ Route::get('/3_9_1',function(){
 Route::get('/3_9_2',function(){
     return view('3_9_2');
 });
+
+Route::get('/3_9_3',function(){
+    return view('3_9_3');
+});
+
+Route::get('/3_9_4',function(){
+    return view('3_9_4');
+});
+
+Route::get('/3_9_5',function(){
+    return view('3_9_5');
+});
