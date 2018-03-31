@@ -123,3 +123,41 @@ Route::get('/3_9_4',function(){
 Route::get('/3_9_5',function(){
     return view('3_9_5');
 });
+
+Route::get('/3_9_6',function(){
+    return view('3_9_6');
+});
+
+Route::get('/3_9_7',function(){
+    return view('3_9_7');
+});
+
+Route::get('/3_9_8',function(){
+    return view('3_9_8');
+});
+
+Route::get('/3_10_1',function(){
+    return view('3_10_1');
+});
+
+
+Route::get('/3_10_2',function(){
+    return view('3_10_2');
+});
+
+
+Route::get('/3_10_3_1',function(){
+    return view('3_10_3_1');
+});
+
+Route::get('/3_10_3_2',function(){
+    return view('3_10_3_2');
+});
+
+Route::get('/3_10_4',function(){
+    return view('3_10_4');
+});
+
+Route::get('/3_10_5',function(){
+    return view('3_10_5');
+});

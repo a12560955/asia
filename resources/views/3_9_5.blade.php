@@ -59,7 +59,7 @@
                             <div class="w-100">
                                 <div class="d-flex flex-row">
                                     <div class="p-1 w-50">
-                                        <p>目前募資$2000</p>
+                                        <p class="mt-1">目前募資$2000</p>
                                     </div>
                                     <div class="p-1 w-50">
                                         <p>捐款人數：3</p>   
@@ -104,7 +104,7 @@
                                         </div>
                                     </div>
                                     <div class="p-1 w-50">
-                                        <p>捐款人數：10</p>  
+                                        <p class="mt-1">捐款人數：10</p>  
                                         <a href="#"><u>點擊即可連結到此個案詳細內容</u></a>                                      
                                     </div>
                                 </div>
