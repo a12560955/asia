@@ -1,5 +1,5 @@
 @extends('layouts.user')
-@section('title','(內文標題)')
+@section('title','註冊成功')
 
 @section('content')
     <div class="d-flex flex-row">

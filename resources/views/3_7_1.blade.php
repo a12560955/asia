@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','產品設計展示')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -37,13 +37,13 @@
                                             </div>
                                             <div class="card-group">
                                                 <div class="card mx-2 my-2">
-                                                    <img class="card-img-top" src="./images/S_7666095774631.jpg" alt="副木">
+                                                    <img class="card-img-top" src="./images/S_7666094762622.jpg" alt="副木">
                                                 </div>
                                                 <div class="card mx-2 my-2">
-                                                    <img class="card-img-top" src="./images/S_7666095774631.jpg" alt="副木">
+                                                    <img class="card-img-top" src="./images/S_7666097065127.jpg" alt="副木">
                                                 </div>
                                                 <div class="card mx-2 my-2">
-                                                    <img class="card-img-top" src="./images/S_7666095774631.jpg" alt="副木">
+                                                    <img class="card-img-top" src="./images/S_7666097909367.jpg" alt="副木">
                                                 </div>
                                             </div>
                                         </div>
@@ -68,24 +68,24 @@
                                     <div class="card w-50">
                                         <div>
                                             <div class="card-header bg-white">
-                                                <img class="card-img-top" src="./images/S_7666095774631.jpg" alt="副木">
+                                                <img class="card-img-top" src="./images/29542141_996865060462199_3901118962460524544_o.jpg" alt="副木">
                                             </div>
                                             <div class="card-group">
                                                 <div class="card mx-2 my-2">
-                                                    <img class="card-img-top" src="./images/S_7666095774631.jpg" alt="副木">
+                                                    <img class="card-img-top" src="./images/S_7666047192960.jpg" alt="副木">
                                                 </div>
                                                 <div class="card mx-2 my-2">
-                                                    <img class="card-img-top" src="./images/S_7666095774631.jpg" alt="副木">
+                                                    <img class="card-img-top" src="./images/S_7666050353657.jpg" alt="副木">
                                                 </div>
                                                 <div class="card mx-2 my-2">
-                                                    <img class="card-img-top" src="./images/S_7666095774631.jpg" alt="副木">
+                                                    <img class="card-img-top" src="./images/S_7666041213103.jpg" alt="副木">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card w-50">
                                         <div class="card-header">
-                                            <h5 class="card-title">名稱：右手副木</h5>
+                                            <h5 class="card-title">名稱：左手副木</h5>
                                         </div>
                                         <div class="card-body">            
                                             <div>

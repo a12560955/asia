@@ -1,6 +1,18 @@
 @extends('layouts.base')
 @section('title','申請副木專案')
 @section('nav')
+<script>
+    var i = true;
+    function addfilm(){
+        if(i){
+            document.getElementById("film").innerHTML='<div class="embed-responsive embed-responsive-4by3" id="youtube"><iframe class="embed-responsive-item d-flex justify-content-center" src="https://www.youtube.com/embed/4VFkS3R81GA" allowfullscreen></iframe></div>';
+            i=false;
+        }else{
+            document.getElementById("film").innerHTML='';
+            i=true;
+        }
+    }
+</script>
 @section('breadcrumb')
 <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="#">首頁</a></li>
@@ -94,9 +106,11 @@
                     </div>
                 </div>
                 <div class="w-100 text-center mt-5">
-                    <button type="submit" class="btn btn-outline-danger btn-lg my-1 mx-2">動態展示</button>
+                    <button type="button" class="btn btn-outline-danger btn-lg my-1 mx-2" onclick="addfilm()">動態展示</button>
                     <button type="submit" class="btn btn-outline-danger btn-lg my-1 mx-2">送出</button>
                     <button type="button" class="btn btn-outline-info btn-lg my-1 mx-2">取消</button>
+                </div>
+                <div id="film" class="w-50">
                 </div>
             </div>
 

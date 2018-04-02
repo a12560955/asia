@@ -1,5 +1,5 @@
 @extends('layouts.user')
-@section('title','(內文標題)')
+@section('title','會員登入')
 
 @section('content')
     <div class="d-flex flex-row">
@@ -31,7 +31,7 @@
                         <button type="submit" class="btn btn-primary ml-3">登入</button>
                         <br>
                         <br>
-                        <h4><a href="#">非會員立即註冊</a></h4>
+                        <h4><a href="#" class="ml-3">非會員立即註冊</a></h4>
                     </form>
                 </div>
             </div>
