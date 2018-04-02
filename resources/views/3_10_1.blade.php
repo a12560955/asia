@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','會員資料')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -34,7 +34,7 @@
             <div class="card-body ml-4">
                 <form enctype="multipart/form-data">
                     <div style="width:10rem;">
-                        <img class="border" style="width:10rem;" src="./images/user.jpg" alt="大頭照">
+                        <img class="border" style="width:10rem;" src="./images/boy.png" alt="大頭照">
                         <div>
                             <input type="file" id="user" accept="image/gif, image/jpeg, image/png">
                         </div>

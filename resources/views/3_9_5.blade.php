@@ -36,12 +36,12 @@
             </div>
             <div class="card-body">
                 <div class="card">
-                    <div class="card-body d-flex flex-row"> 
+                    <div class="card-body d-flex flex-row border"> 
                         {{--  專案募資的顏色這裡改  --}}
-                        <div class="p-1 w-25 bg-info">
+                        <div class="p-1 w-25 border">
                             <h3>專案募資</h3>
                         </div>
-                        <div class="p-1 w-75">
+                        <div class="p-1 w-75 border">
                             <div class="w-100">
                                 <div class="d-flex flex-row">
                                     <div class="p-1 w-25 text-success"><h5>成功</h5></div>
@@ -72,10 +72,10 @@
                 </div>
                 <div class="card mt-1">
                     <div class="card-body d-flex flex-row">
-                        <div class="p-1 w-25">
+                        <div class="p-1 w-25 border">
                             <h3>個案募資</h3>
                         </div>
-                        <div class="p-1 w-75">
+                        <div class="p-1 w-75 border">
                             <div class="w-100">
                                 <div class="d-flex flex-row">
                                     <div class="p-1 w-25 text-success"><h5>成功</h5></div>
