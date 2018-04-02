@@ -42,11 +42,11 @@
                     <tbody>
                         <tr>
                             <th scope="row"><h6>2018年</h6><p>1月20日</p></th>
-                            <td>亞大XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX <br>TT <br>QQ </td>
+                            <td>中國就診醫院 <br>病例確診原因：骨折 <br>復健預估時間：一年 <br>醫師：侯醫師 </td>
                         </tr>
                         <tr>
                             <th scope="row"><h6>2018年</h6><p>2月5日</p></th>
-                            <td>亞大XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX <br>TT <br>QQ </td>
+                            <td>治療方式：復健並配給副木協助復健 <br>副木樣式選擇：02(手臂) <br>醫師：侯醫師 </td>
                         </tr>
                     </tbody>
 
