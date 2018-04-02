@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','追蹤紀錄')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -32,7 +32,7 @@
     <div class="p-1 w-100">
         <div class="card">
             <div class="card-header w-100">
-                <h4 class="text-center">募資成功案件</h4>
+                <h4 class="text-center">追蹤紀錄</h4>
             </div>
             <div class="card-body">
                 <div class="card">

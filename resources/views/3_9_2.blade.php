@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','進行中募資案件')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -38,10 +38,10 @@
                 <div class="card">
                     <div class="card-body d-flex flex-row"> 
                         {{--  專案募資的顏色這裡改  --}}
-                        <div class="p-1 w-25 bg-info">
+                        <div class="p-1 w-25 border">
                             <h3>專案募資</h3>
                         </div>
-                        <div class="p-1 w-75">
+                        <div class="p-1 w-75 border">
                             <div class="w-100">
                                 <div class="d-flex flex-row">
                                     <div class="p-1 w-25"><h5>進行中</h5></div>
@@ -71,10 +71,10 @@
                 </div>
                 <div class="card mt-1">
                     <div class="card-body d-flex flex-row">
-                        <div class="p-1 w-25">
+                        <div class="p-1 w-25 border">
                             <h3>個案募資</h3>
                         </div>
-                        <div class="p-1 w-75">
+                        <div class="p-1 w-75 border">
                             <div class="w-100">
                                 <div class="d-flex flex-row">
                                     <div class="p-1 w-25"><h5>進行中</h5></div>
