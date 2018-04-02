@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','募資個案')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -21,7 +21,7 @@
         </nav>
     </div>
     <div class="p-1 w-100">
-        <h2 class="text-center">募資專案</h2>
+        <h2 class="text-center">募資個案</h2>
         <div class="card-group">
             <div class="card mx-3">
                 <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="Card image cap">
