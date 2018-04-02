@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','查詢捐款明細')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -46,7 +46,7 @@
                                 捐款日期
                             </th>
                             <td>
-                                2016/05/25
+                                2018/03/25
                             </td>
                         </tr>
                         <tr>
@@ -54,7 +54,7 @@
                                 捐款人姓名
                             </th>
                             <td>
-                                XXX
+                                潘安
                             </td>
                         </tr>
                         <tr>
@@ -83,7 +83,7 @@
                                 收據寄出日期
                             </th>
                             <td>
-                                YYYY/MM/DD
+                                2018/04/01
                             </td>
                         </tr>
                     </tbody>

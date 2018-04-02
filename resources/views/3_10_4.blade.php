@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','歷史紀錄')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -41,11 +41,11 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"><h6>2018年</h6><p>1月XX日</p></th>
+                            <th scope="row"><h6>2018年</h6><p>1月20日</p></th>
                             <td>亞大XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX <br>TT <br>QQ </td>
                         </tr>
                         <tr>
-                            <th scope="row"><h6>2018年</h6><p>1月XX日</p></th>
+                            <th scope="row"><h6>2018年</h6><p>2月5日</p></th>
                             <td>亞大XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX <br>TT <br>QQ </td>
                         </tr>
                     </tbody>

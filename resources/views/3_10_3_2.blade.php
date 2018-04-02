@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','申請副木專案')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -41,11 +41,11 @@
                     </div>
                     <div class="form-check form-check-inline ml-5">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/2.jpg" style="width:5rem;"></label>
+                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/3.jpg" style="width:5rem;"></label>
                     </div>
                     <div class="form-check form-check-inline ml-5">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/3.jpg" style="width:5rem;"></label>
+                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/2.jpg" style="width:5rem;"></label>
                     </div>
                 </div>
                 <br>
@@ -54,15 +54,15 @@
                     <br>
                     <div class="form-check form-check-inline ml-5">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/1.jpg" style="width:5rem;"></label>
+                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/4.jpg" style="width:5rem;"></label>
                     </div>
                     <div class="form-check form-check-inline ml-5">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/2.jpg" style="width:5rem;"></label>
+                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/2.png" style="width:5rem;"></label>
                     </div>
                     <div class="form-check form-check-inline ml-5">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/3.jpg" style="width:5rem;"></label>
+                        <label class="form-check-label" for="inlineCheckbox1"><img src="./images/S_7666480772397.jpg" style="width:5rem;"></label>
                     </div>
                 </div>
                 <div class="ml-5">
