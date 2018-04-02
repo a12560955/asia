@@ -1,5 +1,5 @@
 @extends('layouts.user')
-@section('title','(內文標題)')
+@section('title','一般會員註冊')
 @section('content')
 <div class="d-flex flex-row">
     <div class="p-1">
@@ -18,13 +18,10 @@
     </div>
     <div class="p-1 w-100">
         <div class="card">
-            <div class="card-header w-100">
-                <h5 class="text-center">會員資料</h5>
-            </div>
-            <div class="card-body">
+            <div class="card-body w-100">
                 <form enctype="multipart/form-data">
                     <div style="width:10rem;">
-                        <img class="border" style="width:10rem;" src="./images/user.jpg" alt="大頭照">
+                        <img class="border" style="width:10rem;" src="./images/boy.png" alt="大頭照">
                         <div>
                             <input type="file" id="user" accept="image/gif, image/jpeg, image/png">
                         </div>
@@ -202,7 +199,7 @@
                             <div class="col- ml-4">
                                 <div class="custom-control custom-checkbox">
                                     <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                    <label class="custom-control-label" for="customCheck1">同意XX募資平台<a href="#"><u>服務條款</u></a></label>
+                                    <label class="custom-control-label" for="customCheck1">同意募資平台<a href="#"><u>服務條款</u></a></label>
                                 </div>
                             </div>
                         </div>

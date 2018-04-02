@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','雍有明副木募資')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -28,7 +28,7 @@
                         <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAFNuP015NIk-rNGVVITOCuwrxml64sGQ-gYQHpdhvvBX1cbQv" alt="病患圖片">
                     </div>
                     <div class="p-2 text-center">
-                        <h2>個案標題</h2>
+                        <h2>雍有明副木募資</h2>
                     </div>
                     <div class="p-2">
                         <div class="card-group">
@@ -38,7 +38,7 @@
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <div class="card-body">
+                                <div class="card-body border">
                                     <div class="embed-responsive embed-responsive-4by3">
                                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-lEhWfucJMs" allowfullscreen></iframe>
                                     </div>
