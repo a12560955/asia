@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','留言板')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -84,7 +84,7 @@
                 <div class="flex-col text-center justify-content-center">
                     <div class="p-1">
                         <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
+                            <img class="card-img-top" src="./images/8.jpg" alt="專案圖片">
                             <div class="card-body">
                                 <h6>捐款500元以上</h6>
                             </div>
@@ -92,7 +92,7 @@
                     </div>
                     <div class="p-1">
                         <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
+                            <img class="card-img-top" src="./images/S_7726722608306.jpg" alt="專案圖片">
                             <div class="card-body">
                                 <h6>捐款2000元以上</h6>
                             </div>
@@ -100,12 +100,12 @@
                     </div>
                     <div class="p-1">
                         <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
+                            <img class="card-img-top" src="./images/S_7726722543771.jpg" alt="專案圖片">
                             <div class="card-body">
                                 <h6>捐款5000元以上</h6>
                             </div>
                         </div>
-                    </div>                    
+                    </div>                     
                 </div>
             </div>
         </div>

@@ -40,7 +40,7 @@
                             <div class="card mx-3">
                                 <div class="card-body border">
                                     <div class="embed-responsive embed-responsive-4by3">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-lEhWfucJMs" allowfullscreen></iframe>
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7-0b9g0Qfgk" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                 <div class="flex-col text-center justify-content-center">
                     <div class="p-1">
                         <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
+                            <img class="card-img-top" src="./images/8.jpg" alt="專案圖片">
                             <div class="card-body">
                                 <h6>捐款500元以上</h6>
                             </div>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="p-1">
                         <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
+                            <img class="card-img-top" src="./images/S_7726722608306.jpg" alt="專案圖片">
                             <div class="card-body">
                                 <h6>捐款2000元以上</h6>
                             </div>
@@ -107,7 +107,7 @@
                     </div>
                     <div class="p-1">
                         <div class="card">
-                            <img class="card-img-top" src="https://i.imgur.com/GYwQ6c9.jpg" alt="專案圖片">
+                            <img class="card-img-top" src="./images/S_7726722543771.jpg" alt="專案圖片">
                             <div class="card-body">
                                 <h6>捐款5000元以上</h6>
                             </div>
@@ -121,7 +121,7 @@
                 <div class="card-header">
                     <div class="d-flex flex-row">
                         <div class="p-1 w-50">
-                            <h5 class="mt-2">某某某的平均花費10,000元</h5>
+                            <h5 class="mt-2">雍有明的平均花費10,000元</h5>
                         </div>
                         <div class="p-1 w-50">
                             <nav aria-label="Page navigation example">
