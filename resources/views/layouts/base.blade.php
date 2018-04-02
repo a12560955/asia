@@ -93,11 +93,15 @@
         
         
         @section('bottom')
-            <ul class="nav mb-0 bg-secondary">
-                <li class="nav-item">
-                        這是底頁
-                </li>
-            </ul>          
+            <div class="mb-0 bg-secondary mt-5">
+                <div class="text-center text-light">
+                    <p>亞洲大學 Asia University <br>
+                    地址：41354台中市霧峰區柳豐路500號 <br>
+                    電話：04-2332-3456 ; 04-3706-1889 <br>
+                    行動代表號：0976-589009</p>
+                    <p class="my-0"><a href="#" class="text-info" class="my-2">聯絡我們</a>｜<a href="#" class="text-info" class="my-2">隱私權</a></p>
+                </div>
+            </div>
         @show
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

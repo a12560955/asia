@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','帳戶設定')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="d-flex flex-row">
-                    <div class="p-1 ml-5 mt-1 w-25">
+                    <div class="p-1 ml-5 mt-2 w-25">
                         <label>原始密碼</label>
                     </div>
                     <div class="p-1 w-50">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="d-flex flex-row">
-                    <div class="p-1 ml-5 mt-1 w-25">
+                    <div class="p-1 ml-5 mt-2 w-25">
                         <label>更改密碼</label>
                     </div>
                     <div class="p-1 w-50">
@@ -57,14 +57,14 @@
                     </div>
                 </div>
                 <div class="d-flex flex-row">
-                    <div class="p-1 ml-5 mt-1 w-25">
+                    <div class="p-1 ml-5 mt-2 w-25">
                         <label>再次輸入密碼</label>
                     </div>
                     <div class="p-1 w-50">
                         <input type="password" class="form-control" value="">
                     </div>
                 </div>
-                <div class="w-75 text-center mt-3">
+                <div class="w-75 text-center my-4">
                     <button type="button" class="btn btn-warning btn-lg btn-block mx-5">確認更改密碼</button>
                 </div>
             </div>
