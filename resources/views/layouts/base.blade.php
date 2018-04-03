@@ -60,7 +60,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             {{--  圖片大小為1080*720 但圖片會依 開啟網頁使用者之螢幕大小而有改變 詳細請見1080.jpg  --}}
-                            {{--  圖片只會顯示到深黃色那部分 但大小依然需要1080*720  --}}
+                            {{--  圖片只會顯示到深黃色那部分 但大小依然需要1080*720  1 --}}
                         <img class="w-100" src="./images/t1.png" alt="First slide">
                         </div>
                         <div class="carousel-item">
