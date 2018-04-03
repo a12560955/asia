@@ -61,13 +61,13 @@
                         <div class="carousel-item active">
                             {{--  圖片大小為1080*720 但圖片會依 開啟網頁使用者之螢幕大小而有改變 詳細請見1080.jpg  --}}
                             {{--  圖片只會顯示到深黃色那部分 但大小依然需要1080*720  --}}
-                        <img class="w-100" src="./images/1080.jpg" alt="First slide">
+                        <img class="w-100" src="./images/t1.png" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="w-100" src="./images/2.jpg" alt="Second slide">
+                        <img class="w-100" src="./images/t2.png" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="w-100" src="./images/3.jpg" alt="Third slide">
+                        <img class="w-100" src="./images/t3.png" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

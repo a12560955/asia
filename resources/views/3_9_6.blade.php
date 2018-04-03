@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','(內文標題)')
+@section('title','查詢捐款明細')
 @section('nav')
 @section('breadcrumb')
 <ol class="breadcrumb">
